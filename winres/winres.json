@@ -1,0 +1,60 @@
+{
+  "RT_GROUP_ICON": {
+    "APP": {
+      "0000": [
+        "icon.png"
+	]
+    }
+  },
+  "RT_MANIFEST": {
+    "#1": {
+      "0409": {
+        "identity": {
+          "name": "WebApp Remote",
+          "version": "5.4"
+        },
+        "description": "WebApp based media remote with webserver",
+        "minimum-os": "win7",
+        "execution-level": "as invoker",
+        "ui-access": false,
+        "auto-elevate": false,
+        "dpi-awareness": "system",
+        "disable-theming": false,
+        "disable-window-filtering": false,
+        "high-resolution-scrolling-aware": false,
+        "ultra-high-resolution-scrolling-aware": false,
+        "long-path-aware": false,
+        "printer-driver-isolation": false,
+        "gdi-scaling": false,
+        "segment-heap": false,
+        "use-common-controls-v6": false
+      }
+    }
+  },
+  "RT_VERSION": {
+    "#1": {
+      "0000": {
+        "fixed": {
+          "file_version": "5.4.0.0",
+          "product_version": "5.4.0.0"
+        },
+        "info": {
+          "0409": {
+            "Comments": "",
+            "CompanyName": "Yuri Kasper",
+            "FileDescription": "",
+            "FileVersion": "5.4",
+            "InternalName": "",
+            "LegalCopyright": "",
+            "LegalTrademarks": "",
+            "OriginalFilename": "",
+            "PrivateBuild": "",
+            "ProductName": "WebApp Remote",
+            "ProductVersion": "5.4",
+            "SpecialBuild": ""
+          }
+        }
+      }
+    }
+  }
+}

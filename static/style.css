@@ -1,0 +1,78 @@
+body {
+    display: grid;
+    place-items: center;
+    margin-top: 10vh;
+    font-size: 2em;
+    background-color: #252525;
+}
+.controls {
+    display: grid;
+    place-items: center;
+    max-width: 98vw;
+}
+.controls > div {
+    display: block;
+    width: 4em;
+    height: 4em;
+
+    transition: all .07s ease-in-out;
+}
+.controls > div:active {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+    filter: unset;
+}
+
+
+#btn-volumedown {
+    background-image: url(images/buttons/down.svg);
+    background-size: contain;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#btn-volumeup {
+    background-image: url(images/buttons/up.svg);
+    background-size: contain;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+#btn-back {
+    background-image: url(images/buttons/back.svg);
+    background-size: contain;
+    
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#btn-forward {
+    background-image: url(images/buttons/forward.svg);
+    background-size: contain;
+    
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+#btn-playpause {
+    background-image: url(images/buttons/play_pause.svg);
+    background-size: contain;
+    
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
