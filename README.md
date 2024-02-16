@@ -11,6 +11,6 @@ First prototyped in PHP in 2020 and later rewritten in Processing Java, I've dec
 - Single file and portable (all files embedded in the executable)
 
 ## Screenshots:
-<img src="screenshots/main.PNG?raw=true" alt="Main screen" width="550"/> <img src="screenshots/settings.PNG?raw=true" alt="Settings page" width="350"/>
+<img src="screenshots/main.PNG?raw=true" alt="Main screen" width="460"/> <img src="screenshots/settings.PNG?raw=true" alt="Settings page" width="290"/>
 
-<img src="screenshots/mobile.png?raw=true" alt="Mobile Web Page" width="300"/> <img src="screenshots/add_to_home.png?raw=true" alt="Add to Home Screen" width="300"/> <img src="screenshots/webapp.png?raw=true" alt="WebApp" width="300"/>
+<img src="screenshots/mobile.png?raw=true" alt="Mobile Web Page" width="250"/> <img src="screenshots/add_to_home.png?raw=true" alt="Add to Home Screen" width="250"/> <img src="screenshots/webapp.png?raw=true" alt="WebApp" width="250"/>
