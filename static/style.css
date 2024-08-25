@@ -1,3 +1,10 @@
+:root {
+    touch-action: pan-x pan-y;
+    height: 100%;
+    
+    --palette-primary: #737373;
+}
+
 body {
     display: grid;
     place-items: center;
@@ -75,4 +82,49 @@ body {
 
     grid-column-start: 3;
     grid-column-end: 5;
+}
+
+.secondary-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: 80%;
+    max-width: 25rem;
+}
+
+#keyboard-input {
+    color: var(--palette-primary);
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--palette-primary);
+    height: 3rem;
+    width: 90%;
+    margin-top: 2rem;
+}
+
+#keyboard-input:focus {
+    border: none;
+    border-bottom: 3px solid var(--palette-primary);
+    /* Avoid expanding bounding box */
+    margin-bottom: -1px;
+    /* Hide default focus outline*/
+    outline: none;
+}
+
+#trackpad {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    background-color: var(--palette-primary);
+    opacity: 80%;
+    border-radius: 1rem;
+
+}
+
+@supports not (aspect-ratio: 3 / 2) { 
+    #trackpad {
+        height: 15rem;
+    }
 }
