@@ -9,7 +9,7 @@ func main() {
 	generateQR()
 
 	//initialize keystroke generator
-	initKbd()
+	initKeymap()
 
 	//Start WebApp server as subroutine
 	go runHttpServer()
